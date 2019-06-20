@@ -35,4 +35,9 @@ public class UserController {
             return "index";
         }
     }
+
+    @RequestMapping("/loginout")
+    public String loginout(){
+        return "index";
+    }
 }
